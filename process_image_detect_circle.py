@@ -68,7 +68,7 @@ try :
 except TypeError:
     print("Not Found Circle")
 
-#add multiple images to output using np.hstack if needed but only if same dimention image
+#add multiple images to output using np.hstack if needed Only with same Dimentions
 cv2.imshow("DetectedImage", np.hstack([image]))
 cv2.imwrite(r'C:\Users\admin\Desktop\circlesdetected.jpg', image)
 
